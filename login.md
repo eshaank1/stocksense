@@ -54,7 +54,7 @@ permalink: /login
           .then(response => {
             if (response.ok) {
                 console.log("User logged in successfully");
-                window.location.href = "https://eshaank1.github.io/csp2/stocktest.html"
+                window.location.href = "https://eshaank1.github.io/stocksense/"
               } else {
                 console.error("User login failed");
                 // You can handle failed login attempts here
@@ -93,7 +93,7 @@ permalink: /login
     </p>
     <p>
      <button class="button-spacing">Log In</button>
-          <button onClick = "window.location.href ='https://eshaank1.github.io/csp2/2024/01/30/SignupPage.html'" class="button-spacing" >Sign Up</button>
+          <button onClick = "window.location.href ='https://eshaank1.github.io/stocksense/signup'" class="button-spacing" >Sign Up</button>
 
       
     </p>
