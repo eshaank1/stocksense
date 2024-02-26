@@ -1,15 +1,17 @@
 ---
 layout: default
-title: Student Blog
+title: Home Page
 ---
 
 
-## Build you Home Page here 
-This is about your journey. Start now!!!
+# StockSense
+## Eshaan Kumar, Miheer Purandare, Anagha Ashtawale, Eashaan Reddy
 
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
 
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+h1{ text-align: center; font-size: 50px; color: #0352fc; font-family: 'Roboto', serif;}
+h2{ text-align: center; font-size: 25px; color: #0352fc;}
+body{ text-align: center; font-size: 15px; font-family: 'Roboto', serif; background: black; }
+</style>
+
