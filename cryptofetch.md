@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 comments: false
 layout: post
 title: CryptoSense
@@ -12,27 +12,25 @@ permalink: cryptosense
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cryptocurrency Data Fetcher</title>
+    <style> 
+
+</style>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto');
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f5f5f5; /* Light gray background */
         }
-        h1, h2 {
-            color: #005a87; /* Dark blue for headings */
-            margin-bottom: 10px;
-        }
-        p {
-            color: #444; /* Dark gray for paragraphs */
-            line-height: 1.5;
-            margin-bottom: 15px;
-        }
+        h1{ text-align: center; font-size: 50px; color: #0352fc; font-family: 'Roboto', serif;}
+        h2{ text-align: center; font-size: 25px; color: #0352fc;}
+        p{ text-align: center; font-size: 15px; font-family: 'Roboto', serif; background: black; }
         input[type="text"], button {
             padding: 10px;
             margin: 10px 0;
             border-radius: 5px;
-            border: 1px solid #ccc;
+            border: 7px solid #0352fc;
             box-shadow: 0px 0px 5px #aaa; /* Subtle shadow for depth */
         }
         input[type="text"] {
@@ -40,16 +38,12 @@ permalink: cryptosense
             box-sizing: border-box; /* Ensures padding does not affect width */
         }
         button {
-            background-color: #007bff; /* Blue background for the button */
+            background-color: #000000; /* Black background for the button */
             color: white;
             cursor: pointer;
-            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-            animation: pulse 1s infinite; /* Apply animation */
-            border: none; /* Remove border */
         }
         button:hover {
-            background-color: #0056b3; /* Darker blue on hover */
-            animation: none; /* Disable animation on hover */
+            background-color: #0056b3; /* Blue on hover */
         }
         @keyframes pulse {
             0% {
@@ -67,6 +61,7 @@ permalink: cryptosense
             padding: 20px;
             margin-top: 20px;
             border-radius: 5px;
+            border: 7px solid #0352fc;
             box-shadow: 0 0 10px #cccccc; /* More pronounced shadow for the result box */
         }
         #cryptoData p {
@@ -76,13 +71,15 @@ permalink: cryptosense
     </style>
 </head>
 <body>
-    <p>Open: Refers to the price of a cryptocurrency at the beginning of a trading session. It represents the first transaction or trade of the day for a particular cryptocurrency.</p>
-    <p>High: Represents the highest price at which a cryptocurrency was traded during a specific period, typically within a trading day.</p>
-    <p>Low: Indicates the lowest price at which a cryptocurrency was traded during a specific period, usually within a trading day.</p>
-    <p>Close: Refers to the final price at which a cryptocurrency was traded at the end of a trading session. It represents the last transaction or trade of the day for a particular cryptocurrency.</p>
-    <p>Volume: Represents the total number of units of a particular cryptocurrency that were traded during a specific period, such as a trading day. It indicates the level of activity or liquidity in the market for that cryptocurrency.</p>
-    <h1>Cryptocurrency Data Fetcher - Eshaan</h1>
-    <input type="text" id="cryptoSymbol" placeholder="Enter Cryptocurrency Symbol (XRP, BTC, ...)">
+    <h2>Info</h2>
+    <p>Open: Price of a crypto at the beginning of a trading session (usually the first transaction of the day)</p>
+    <p>High: Highest price the crypto was valued/traded at during the trading session (usually the day)</p>
+    <p>Low: Lowest price the crypto was valued/traded at during the trading session (usually the day)</p>
+    <p>Close: Price of a crypto at the end of a trading session (usually the last transaction of the day)</p>
+    <p>Volume: Total number of units of a particular crypto traded within a trading session (usually the day)</p>
+    <h2>Cryptocurrency Data Fetcher by Eshaan</h2>
+    <h3>Enter a Cryptocurrency Symbol (XRP, BTC, ...) below:</h3>
+    <input type="text" id="cryptoSymbol" placeholder=" ">
     <button onclick="fetchCryptoData()">Fetch Crypto Data</button>
 
     <div id="cryptoData"></div>
