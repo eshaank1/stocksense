@@ -8,7 +8,6 @@ permalink: /login
 ---
 
 <html lang="en">
-
 <head>
 <script>
     //import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
