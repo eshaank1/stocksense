@@ -5,7 +5,7 @@ title: Home Page
 
 
 # StockSense
-## Eshaan Kumar, Miheer Purandare, Anagha Ashtawale, Eashaan Reddy
+## Eshaan Kumar, Miheer Purandare, Anagha Ashtewale, Eashaan Reddy
 
 
 <style> 

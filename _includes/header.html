@@ -1,11 +1,54 @@
 <header class="site-header">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+    .header {
+      text-align: left;
+      margin-left: -64%;
+      margin-top: 10px;
+    }
+    a {
+      list-style-type: none;
+      font-family: 'Roboto', serif;
+      margin-top: 100px;
+      overflow: hidden;
+      font-size:25px;
+    }
+    a.btn{
+      color: #0352fc;
+      background-color: black;
+      border: 0px;
+      height:70px;
+      text-align: center;
+      padding-top: 2px;
+      margin-right: 25px;
+      border: 2px solid transparent;
+      transition: border-color 0.3s;
+      box-sizing: border-box;
+    }
+    a.btn:hover{
+      color: #0352fc;
+      border-color: #0352fc;
+    }
+    li.fork {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: #0352fc;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover:not(.active) {
+      background-color: black;
+    }
+    img.logo{
+      padding-top:-5px;
+    }
+    </style>
+<div class="header">
 
-  <div id="header">
-    <nav>
-      <ul>
-        <li class="fork"><a href="{{site.baseurl}}/">Home</a></li>
-        <li class="title"><a href="{{ site.github.repository_url }}#readme">View On GitHub</a></li>
-      </ul>
-    </nav>
-  </div><!-- end header -->
+  <a class="btn" href="{{site.baseurl}}/" role="button">Home</a>
+  <a class="btn" href="{{site.github.repository_url}}#readme" role="button">View on GitHub</a>
+</div><!-- end header -->
 </header>
