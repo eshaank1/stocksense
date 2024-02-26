@@ -4,6 +4,7 @@ comments: false
 layout: post
 title: CryptoSense
 type: hacks
+permalink: cryptosense
 ---
 
 <html lang="en">

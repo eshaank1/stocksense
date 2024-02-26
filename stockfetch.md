@@ -4,6 +4,7 @@ comments: false
 layout: post
 title: StockSense-Data
 type: hacks
+permalink: /stocksensedata
 ---
 
 

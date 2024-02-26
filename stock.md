@@ -4,6 +4,7 @@ comments: false
 layout: post
 title: StockSense
 type: hacks
+permalink: /stocksense
 ---
 
 <html lang="en">
