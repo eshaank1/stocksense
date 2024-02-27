@@ -56,17 +56,19 @@ permalink: cryptosense
                 transform: scale(1);
             }
         }
-        #cryptoData {
+        #stockData {
             background-color: #ffffff;
             padding: 20px;
             margin-top: 20px;
             border-radius: 5px;
-            border: 7px solid #0352fc;
             box-shadow: 0 0 10px #cccccc; /* More pronounced shadow for the result box */
         }
-        #cryptoData p {
-            color: #333; /* Dark gray for text */
-            margin: 5px 0;
+        #stockData p {
+            color: black; /* Set text color to black */
+        }
+        p {
+            color: #6c757d; /* Dark gray for text to improve readability */
+        }n: 5px 0;
         }
     </style>
 </head>
